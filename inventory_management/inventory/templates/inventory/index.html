@@ -1,0 +1,16 @@
+{% extends 'inventory/base.html' %}
+
+{% block content %}
+<div>
+	<div class="row">
+		<div class="col-sm-11 col-md-4 mx-auto mt-5 px-3">
+			<h1 class="fw-light text-center">Verifica y gestiona tu inventario</h1>
+			<p class="fw-light text-center">Recibe alertas cuando tu stock está bajo</p>
+
+			<div class="text-center">
+				<a href="{% url 'dashboard' %}" class="btn btn-primary">Ir al inventario</a>
+			</div>
+		</div>
+	</div>
+</div>
+{% endblock content %}
